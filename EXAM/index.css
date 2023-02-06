@@ -1,0 +1,95 @@
+*{
+    background-color: #202020;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav1{
+    padding-top: 10px;
+    height: 25px;
+    color: white;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    border-bottom: 1px solid rgb(154, 128, 128);
+}
+
+.nav1 a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.call{
+     padding-right:50px;
+}
+
+.icon{
+    display: inline;
+    padding-left: 30px;
+}
+
+.icon a{
+    padding-right:8px;
+    color:white;
+}
+
+.f-icon{
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+}
+
+.mainnav{
+    height: 30px;
+    margin-top: 35px;
+    text-align: center;
+    color: white;
+
+}
+
+.mainnav div{
+    padding: 15px;
+    color:white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+}
+.mainnav span{
+    color:rgb(255, 234, 234);
+}
+
+.img{
+    margin-top:5px;
+    height: 500px;
+    width:100%;
+    margin-bottom: 50px;
+
+}
+
+.img img{
+    width: 100%;
+    height: 500px;
+}
+
+.mainnav div:hover{
+    color:green;
+}
+
+.dropdwon-contain{
+    display: none;
+    top:30px;
+    left:1000px;
+    position: absolute;
+}
+.dropdwon-containner{
+    position: relative;
+}
+.dropdwon-container:hover .dropdwon-contain{display: block;
+cursor: pointer;}
+
+.dropdwon-contain input{
+    background-color:beige;
+    height: 30px;
+    width:150px;
+}
